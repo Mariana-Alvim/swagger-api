@@ -30,8 +30,11 @@ run_requirements = [
     'loguru==0.4.1',
     'numpy==1.18.5',
     'prometheus_client==0.8.0',
-    'vaderSentiment',
-    'jinja2==3.0.0'
+    'jinja2==3.0.0',
+    'pycep_correios==5.0.0',
+    'geopy==2.1.0',
+    'timezonefinder==6.0.1',
+    'datetime==4.5.0'
 ]
 
 with io.open('./service/__init__.py', encoding='utf8') as version_f:
@@ -47,7 +50,7 @@ setup(
     version=version,
     packages=find_packages(exclude='tests'),
     include_package_data=True,
-    description="Template para API flask arq 3.0",
+    description="API Timezone arq 3.0",
     zip_safe=False,
     install_requires=run_requirements,
     extras_require={
