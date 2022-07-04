@@ -2,8 +2,8 @@ swagger: '2.0'
 
 info:
   version: 0.1.0
-  title: AS Template Flask API
-  description: 'Template flask padrão APIs REST..'
+  title: API Timezone
+  description: 'API RESTfull Timezone com Swagger.'
   contact:
     email: mari.alvim@hotmail.com
 
@@ -11,15 +11,15 @@ schemes:
   - http
 
 tags:
-  - name: AS Template
-    description: 'Welcome to AS Template Flask API.'
+  - name: Timezone API
+    description: 'Welcome to Timezone API.'
 
 paths:
   /main:
     post:
       tags:
-        - AS Template
-      description: 'AS Template Flask API.'
+        - Timezone API
+      description: 'Timezone API.'
       parameters:
         - name: main
           in: body

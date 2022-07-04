@@ -1,8 +1,6 @@
 # Mensagens log API
 INICIO_LOAD_SERVICO = "Carregando o servico..."
-FIM_LOAD_MODEL = "Servico carregado."
 INICIO_BUSCA = "Iniciando a busca..."
-FIM_PREDICT = "Fim do tratamento."
 
 # Error Business #
 ERROR_GENERIC = "Ocorreu um erro generico"
@@ -15,5 +13,5 @@ ERROR_KEY = 'Chave incorreta'
 
 # Sucess Business #
 SUCESSO_GET = "Classificador OK."
-SUCESSO_PREDICT = "Classificacao realizada com sucesso."
+SUCESSO_BUSCA = "A busca foi realizada com sucesso."
 SUCESSO_ENDPOINT = "Endpoints funcionando"
