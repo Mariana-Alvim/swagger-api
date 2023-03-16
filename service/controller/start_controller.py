@@ -10,5 +10,5 @@ start = api.namespace("")
 class StartController(Resource):
     @api.response(200, 'Enviado com sucesso.')
     def get(self) -> dict:
-        """Welcome to AS Template Flask API."""
-        return Response('Aplicação funcionando.')
+        """Método para verificar se a rota está funcionando."""
+        return Response('Welcome to Timezone Flask API.')

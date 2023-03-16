@@ -28,7 +28,7 @@ run_requirements = [
     'gunicorn==19.10.0',
     'requests==2.22.0',
     'loguru==0.4.1',
-    'numpy==1.18.5',
+    'numpy==1.20.3',
     'prometheus_client==0.8.0',
     'jinja2==3.0.0',
     'pycep_correios==5.0.0',
