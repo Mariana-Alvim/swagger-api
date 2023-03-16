@@ -13,7 +13,7 @@ Este projeto consiste numa API Flask-RESTful com Swagger desenvolvida em Python,
 Para executar este microsserviço, basta gerar a imagem a partir do Dockerfile executando o comando **1** no mesmo diretório do projeto, e então, processar a imagem por meio do comando **2**.
 
 1. `docker-compose build`
-<br>
+
 2. `docker-compose up`
 <br>
 
